@@ -212,7 +212,6 @@
     <None Include="DXTK\Inc\SimpleMath.inl" />
   </ItemGroup>
   <ItemGroup>
-    <Library Include="Capstone\bin\capstone.lib" />
     <Library Include="DXTK\bin\DirectXTK.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
