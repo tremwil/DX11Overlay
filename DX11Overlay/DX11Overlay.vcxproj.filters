@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\DXTK">
+      <UniqueIdentifier>{1ff20ce5-2011-4dcf-8a91-60ac7eda4e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Captstone">
+      <UniqueIdentifier>{c16c038b-c936-4ea6-b00d-a35b52484e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Rendering">
+      <UniqueIdentifier>{87d15870-4b03-47f4-b579-654645e10240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\DXTK\bin">
+      <UniqueIdentifier>{f9a24b8f-af2b-4226-9a73-648f53c0f2bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Captstone\bin">
+      <UniqueIdentifier>{288dfd67-86dd-4275-8e1c-d7f488504c30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyHook.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\Audio.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\CommonStates.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\DDSTextureLoader.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\DirectXHelpers.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\Effects.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\GamePad.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\GeometricPrimitive.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\Keyboard.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\Model.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\Mouse.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\PrimitiveBatch.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\ScreenGrab.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\SimpleMath.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\SpriteBatch.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\SpriteFont.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\VertexTypes.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\WICTextureLoader.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Inc\XboxDDSTextureLoader.h">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="Capstone\include\arm.h">
+      <Filter>Fichiers d%27en-tête\Captstone</Filter>
+    </ClInclude>
+    <ClInclude Include="Capstone\include\arm64.h">
+      <Filter>Fichiers d%27en-tête\Captstone</Filter>
+    </ClInclude>
+    <ClInclude Include="Capstone\include\capstone.h">
+      <Filter>Fichiers d%27en-tête\Captstone</Filter>
+    </ClInclude>
+    <ClInclude Include="Capstone\include\mips.h">
+      <Filter>Fichiers d%27en-tête\Captstone</Filter>
+    </ClInclude>
+    <ClInclude Include="Capstone\include\platform.h">
+      <Filter>Fichiers d%27en-tête\Captstone</Filter>
+    </ClInclude>
+    <ClInclude Include="Capstone\include\ppc.h">
+      <Filter>Fichiers d%27en-tête\Captstone</Filter>
+    </ClInclude>
+    <ClInclude Include="Capstone\include\sparc.h">
+      <Filter>Fichiers d%27en-tête\Captstone</Filter>
+    </ClInclude>
+    <ClInclude Include="Capstone\include\systemz.h">
+      <Filter>Fichiers d%27en-tête\Captstone</Filter>
+    </ClInclude>
+    <ClInclude Include="Capstone\include\x86.h">
+      <Filter>Fichiers d%27en-tête\Captstone</Filter>
+    </ClInclude>
+    <ClInclude Include="Capstone\include\xcore.h">
+      <Filter>Fichiers d%27en-tête\Captstone</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Color.h">
+      <Filter>Fichiers d%27en-tête\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\D3D11StateSaver.h">
+      <Filter>Fichiers d%27en-tête\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\DXTKFonts.h">
+      <Filter>Fichiers d%27en-tête\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\DXTKRenderer.h">
+      <Filter>Fichiers d%27en-tête\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\RenderInterface.h">
+      <Filter>Fichiers d%27en-tête\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11Renderer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11Overlay.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyHook.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXTK\Inc\SimpleMath.inl">
+      <Filter>Fichiers d%27en-tête\DXTK</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="DXTK\bin\DirectXTK.lib">
+      <Filter>Fichiers d%27en-tête\DXTK\bin</Filter>
+    </Library>
+    <Library Include="Capstone\bin\capstone.lib">
+      <Filter>Fichiers d%27en-tête\Captstone\bin</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
